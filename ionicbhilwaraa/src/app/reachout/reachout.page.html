@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Contact Us
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ 
+  <ion-card>
+    <img src="../../assets/avatar.jpg">
+    <ion-label>Enter Your Name:</ion-label>
+    <ion-item><ion-input placeholder="Name"></ion-input></ion-item>
+    <ion-label>Enter Your Phone:</ion-label>
+    <ion-item><ion-input placeholder="Phone"></ion-input></ion-item>
+    <ion-label>Enter Your Email:</ion-label>
+    <ion-item><ion-input placeholder="Email"></ion-input></ion-item>
+    <ion-label>I'm interested in:</ion-label>
+    <ion-item>
+        <ion-label>Select a service...</ion-label>
+        <ion-select value="service" okText="Okay" cancelText="Dismiss">
+          <ion-select-option value="Digital Marketing">Digital Marketing</ion-select-option>
+          <ion-select-option value="Social Media">Social Media</ion-select-option>
+          <ion-select-option value="E-Commerce">E-Commerce</ion-select-option>
+          <ion-select-option value="Mobile Advertising">Mobile Advertising</ion-select-option>
+        </ion-select>
+      </ion-item>
+      
+        <ion-item>
+            <ion-label position="floating">Your Message:</ion-label>
+            <ion-textarea></ion-textarea>
+          </ion-item>
+          <ion-button color="primary">Contact Us</ion-button>
+                    
+
+  </ion-card>
+</ion-content>
