@@ -1,0 +1,27 @@
+.mapouter
+{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+.lic
+{
+    position:absolute;
+    z-index:999;
+    bottom:-14px;
+    right:0;
+    font-size:11px;
+    font-family:arial;
+    color:#666;
+}
+.gmap_canvas
+ {
+     overflow:hidden;
+     background:none!important;
+     height:500px;
+     width:600px;
+    }
+    ion-title{
+        background-color: aquamarine;
+      }
